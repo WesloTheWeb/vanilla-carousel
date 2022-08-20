@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Slideshow</title>
+    <link href="https://unpkg.com/reset-css@5.0.1/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <main>
+        <div class="slideshow" role="region" aria-label="carousel">
+            <ol class="slides-container">
+                <li class="slide">
+                    <img id="slide-image"
+                        src="https://static1.squarespace.com/static/5a67952ff9a61e4381d21698/t/5e8357fadd5ef64df67d0420/1585666043846/1.jpg" />
+                </li>
+                <!-- <li class="slide">
+            <img
+              src="https://static1.squarespace.com/static/5a67952ff9a61e4381d21698/t/5e83580799fce657f5d7693c/1585666067743/2.jpg"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://static1.squarespace.com/static/5a67952ff9a61e4381d21698/t/5e835809539b7e45e837b2d1/1585666060124/3.jpg"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://static1.squarespace.com/static/5a67952ff9a61e4381d21698/t/5e83580ce3cece7299201708/1585666067786/4.jpg"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://static1.squarespace.com/static/5a67952ff9a61e4381d21698/t/5e835811e3cece729920176a/1585666067538/5.jpg"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://static1.squarespace.com/static/5a67952ff9a61e4381d21698/t/5e835814dd5ef64df67d0a75/1585666072979/6.jpg"
+            />
+          </li> -->
+            </ol>
+
+            <ol class="indicators-container">
+                <li class="indicator-wrapper" id="currentImage">
+                    <button class="indicator"></button>
+                </li>
+                <li class="indicator-wrapper">
+                    <button class="indicator"></button>
+                </li>
+                <li class="indicator-wrapper">
+                    <button class="indicator"></button>
+                </li>
+                <li class="indicator-wrapper" id="4">
+                    <button class="indicator"></button>
+                </li>
+                <li class="indicator-wrapper" id=5">
+                    <button class="indicator"></button>
+                </li>
+                <li class="indicator-wrapper" id="6">
+                    <button class="indicator"></button>
+                </li>
+            </ol>
+
+            <div class="controls-container">
+                <button class="control" id="left">
+                    &larr;
+                </button>
+                <button class="control" id="right">
+                    &rarr;
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
